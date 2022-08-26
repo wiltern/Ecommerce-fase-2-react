@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+import './App.css'
+
+
+ const formreact = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <form>
+  <label>
+    <h2 className='tipodecadastro'>Tipo de Cadatro</h2>
+      <option className='fisjur' value="Pessoafisica" >Pessoa Física</option>
+      <input className='fisjur-button' type='radio' name='PessoaFisica'></input>
+      <option className='fisjur' value="PessoaJuridica">Pessoa Jurídica</option>
+      <input className='fisjur-button' type='radio' name='PessoaJuridica'></input>
+  </label>
 
-export default App;
+</form>
+  );
+  
+ }
+  
+ export default formreact;
