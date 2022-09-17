@@ -1,0 +1,27 @@
+.tituloend {
+    display: flex;
+    font-size: 30px;
+    justify-content: left;
+    text-align: left;
+  }
+  
+  .containerend  {
+    border: solid 5px #F7D6E7;
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 10px;
+    background-color: #F7D6E7;
+    width: ;
+    justify-content: space-around;
+    display: flex;
+    height: 60%;
+    margin-left: ;
+  }
+  
+  .dadosend {
+  margin: 20px;
+  display: flexbox;
+  text-align: left;
+  font-size: 20px;
+  width: -60%;
+  }
