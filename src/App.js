@@ -1,4 +1,5 @@
 import React  from 'react';
+import { useState } from 'react';
 
 import "./App.css"
 
@@ -8,13 +9,15 @@ import PessoaJuridica from './Components/PessoaJuridica/PessoaJuridica'
 import PessoaFisica from './Components/PessoaFisica/PessoaFisica'
 import Endereco from './Components/Endereço/Endereco'
 import Buttons from './Components/Botões/Buttons'
-import { useState } from 'react';
+import pagLogin from './Components/Tela-de-login/telaDeLogin';
+
 
 
 const App = () => {
   const [isPessoaFisica, handleIsPessoaFisica] = useState(true)
   return (
     <div>
+      <pagLogin />
       <Cabecalho/>
       <Tipocadastro handleIsPessoaFisica={handleIsPessoaFisica} />
       {
